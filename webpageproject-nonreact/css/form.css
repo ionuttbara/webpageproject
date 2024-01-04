@@ -1,0 +1,40 @@
+/* form.css */
+
+/* Stilizare pentru formular */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px; /* Ajustează lățimea formularului după preferințe */
+    margin: 0 auto; /* Centrarea formularului în pagină */
+}
+
+/* Stilizare pentru etichetele de formular */
+label {
+    margin-bottom: 8px;
+}
+
+/* Stilizare pentru câmpurile de formular */
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+/* Stilizare pentru butonul de submit */
+button {
+    background-color: #007BFF;
+    color: #007BFF; 
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+form.submitting button {
+    background-color: #17a2b8; 
+}

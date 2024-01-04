@@ -1,59 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
-    <title>Firma XYZ</title>
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/mode-switch.css">
+     <link rel="stylesheet" href="css/image.css">
+    <title>Gallery Inc - Contact</title>
+    <style>
+        #email-icon {
+            width: 16px;
+            height: auto;
+            margin-right: 5px;
+        }
+        #phone-icon {
+            width: 16px;
+            height: auto;
+            margin-right: 5px;
+        }
+        #darkModeIcon,
+        #lightModeIcon {
+            width: 24px;
+            height: 24px;
+            margin-right: 5px;
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <img src="path/to/logo.png" alt="Company Logo">
+         <a href="index.html">
+            <img src="img/logo.png" alt="Company Logo">
+        </a>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+           <li><a href="index.html">Home</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <li><a href="#" id="toggleButton">Toggle Mode</a></li>
             </ul>
+
         </nav>
     </header>
 
     <main>
         <section id="banner">
-            <h1>Welcome to Firma XYZ</h1>
-            <p>Your trusted partner for innovative solutions.</p>
+            <h1>Welcome to Gallery Inc Company Website</h1>
+            <section>
+            <h2>Explore a World of Visual Inspiration</h2>
+            <p>Gallery Inc is your go-to destination for high-quality sample photos. Whether you're a photographer, designer, or simply an art enthusiast, our curated collection of images is designed to inspire and captivate.</p>
+            <div class="image-container">
+                <img src="img/index_ph/img1.jpg" alt="Service Image 1">
+                <img src="img/index_ph/img2.jpg" alt="Service Image 2">
+                <img src="img/index_ph/img3.jpg" alt="Service Image 3">
+            </div>
         </section>
-
-        <section id="services">
-            <h2>Our Services</h2>
-            <p>Explore our range of high-quality services and their prices:</p>
-
-            <table id="servicesTable">
-                <!-- Table generated dynamically with JavaScript -->
-            </table>
+        </section>
         </section>
 
         <section id="gallery">
             <h2>Our Work</h2>
             <div class="image-container">
-                <img src="path/to/image1.jpg" alt="Service Image 1">
-                <img src="path/to/image2.jpg" alt="Service Image 2">
-                <img src="path/to/image3.jpg" alt="Service Image 3">
+                <img src="img/index_ph/img4.jpg" alt="Service Image 1">
+                <img src="img/index_ph/img5.jpg" alt="Service Image 2">
+                <img src="img/index_ph/img6.jpg" alt="Service Image 3">
             </div>
+        </section>
+        <section>
+            <h2>What We Offer</h2>
+            <p>At Gallery Inc, we take pride in offering a diverse range of sample photos to suit various creative needs. Our collection includes:</p>
+            <ul>
+                <li>Gallery Basic Services</li>
+                <li>Gallery Basic Premium Services</li>
+                <li>Gallery Ultimate Services</li>
+                <li>Gallery Deluxe Services</li>
+                <li>Gallery Platinum Services</li>
+            </ul>
+            <p>Each category comes with its unique features, ensuring there's something for everyone.</p>
+        </section>
+
+        <section>
+            <h2>Why Choose Gallery Inc?</h2>
+            <p>Discover the Gallery Inc difference:</p>
+            <ul>
+                <li>High-Quality Images: Our sample photos are meticulously selected for their visual appeal and quality.</li>
+                <li>Flexible Services: Choose a service package that fits your requirements, from basic to premium.</li>
+                <li>User-Friendly Experience: Navigate our site with ease and enjoy a seamless browsing experience.</li>
+                <li>Inspiration for All: Whether you're a professional or an amateur, our images are meant to inspire and fuel your creativity.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Get Started Today</h2>
+            <p>Embark on a visual journey with Gallery Inc. Explore our services, discover breathtaking images, and elevate your creative projects.</p>
+            <p>Ready to dive in? <a href="services.html">Browse Our Services</a></p>
         </section>
     </main>
 
-    <footer>
-        <p>Address: 123 Main St, City, Country</p>
-        <p>Contact: <a href="mailto:info@firmaxyz.com">info@firmaxyz.com</a> | Phone: <a href="tel:+123456789">123-456-789</a></p>
-    </footer>
+<footer class="no-mode-switch">
+    <p>Gallery Inc - Your Source for Visual Inspiration</p>
+    <p>Address: One Gallery Way, Seattle , Washington (98101)</p>
+    <p>Contact: <img id="email-icon" class="no-mode-switch" src="svg/mail.svg" alt="Email Icon"><a href="mailto:lunguceo@dvecs.com">lunguceo@dvecs.com</a> | Phone: <img id="phone-icon" class="no-mode-switch" src="svg/phone.svg" alt="Phone Icon"><a href="tel:+12065651250">206-565-1250</a></p>
+</footer>
 
     <script src="js/script.js"></script>
+    <script src="js/mode-switch.js"></script>
 </body>
 
 </html>

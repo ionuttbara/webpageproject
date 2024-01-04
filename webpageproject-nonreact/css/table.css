@@ -1,0 +1,41 @@
+/* css/table.css */
+
+#servicesTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#servicesTable th,
+#servicesTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#servicesTable th {
+    background-color: #f2f2f2;
+}
+
+.buy-button {
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #2980b9;
+}
+
+.shopping-basket {
+    margin-top: 20px;
+}
+
+.selected-services {
+    margin-top: 10px;
+    font-weight: bold;
+}

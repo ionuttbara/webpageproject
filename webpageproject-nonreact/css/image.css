@@ -1,0 +1,17 @@
+/* image.css */
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image-container img {
+    width: 640px; /* Adjust the size as needed */
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container img:hover {
+    transform: scale(2.5);
+}

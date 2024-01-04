@@ -1,41 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
-    <title>Firma XYZ - About Us</title>
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/mode-switch.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/basket.css">
+    <link rel="stylesheet" href="css/image.css"> <!-- Add your image.css file here -->
+    <title>Gallery Inc - About Us</title>
+    <style>
+        #email-icon {
+            width: 16px;
+            height: auto;
+            margin-right: 5px;
+        }
+        #phone-icon {
+            width: 16px;
+            height: auto;
+            margin-right: 5px;
+        }
+        #darkModeIcon,
+        #lightModeIcon {
+            width: 24px;
+            height: 24px;
+            margin-right: 5px;
+        }
+    </style>
 </head>
-
 <body>
     <header>
-        <img src="path/to/logo.png" alt="Company Logo">
+        <a href="index.html">
+            <img src="img/logo.png" alt="Company Logo">
+        </a>
         <nav>
             <ul>
-                <li><a href="home.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <li><a href="#" id="toggleButton">Toggle Mode</a></li>
             </ul>
         </nav>
     </header>
-
     <main>
-        <h1>About Firma XYZ</h1>
-        <p>We are a leading company dedicated to providing exceptional services to our clients. Our commitment to quality and innovation sets us apart.</p>
-        <p>Founded in [year], Firma XYZ has grown to become a trusted partner for individuals and businesses seeking reliable solutions.</p>
-        <!-- Additional information about the company goes here -->
+        <section>
+            <h2>About Gallery Inc</h2>
+            <p>Welcome to Gallery Inc - your source for high-quality sample photos. Learn more about our mission and values.</p>
+        </section>
+
+        <section>
+            <h2>Our Team</h2>
+        </section>
+
     </main>
-
-    <footer>
-        <p>Address: 123 Main St, City, Country</p>
-        <p>Contact: <a href="mailto:info@firmaxyz.com">info@firmaxyz.com</a> | Phone: <a href="tel:+123456789">123-456-789</a></p>
+    <footer class="no-mode-switch">
+        <p>Address: One Gallery Way, Seattle, Washington (98101)</p>
+        <p>Contact: <img id="email-icon" class="no-mode-switch" src="svg/mail.svg" alt="Email Icon"><a href="mailto:lunguceo@dvecs.com">lunguceo@dvecs.com</a> | Phone: <img id="phone-icon" class="no-mode-switch" src="svg/phone.svg" alt="Phone Icon"><a href="tel:+12065651250">206-565-1250</a></p>
     </footer>
-
     <script src="js/script.js"></script>
+    <script src="js/mode-switch.js"></script>
 </body>
-
 </html>
